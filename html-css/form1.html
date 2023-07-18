@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Advance</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" placeholder="Name" name="name" />
+      <input type="password" placeholder="Password" name="password" />
+      <!-- type password untuk membuat input user tidak terlihat (seperti password pada umumnya) -->
+    </div>
+
+    <div>
+      Your Favorite Color?
+      <input type="radio" name="color" value="red" /> Red
+      <input type="radio" name="color" value="green" /> Green
+      <input type="radio" name="color" value="blue" /> Blue
+      <input type="radio" name="color" value="black" /> Black
+      <!-- type Radio untuk membuat seperti pilihan ganda -->
+    </div>
+
+    <div>
+      <input name="country" list="countries" placeholder="Country" />
+      <datalist id="countries">
+        <option value="Indonesia"></option>
+        <option value="Amerika"></option>
+        <option value="Jepang"></option>
+      </datalist>
+      <!-- ini untuk menampilkan option -->
+    </div>
+  </body>
+</html>
+41.04

@@ -1,0 +1,22 @@
+%pesan {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.success {
+  @extend %pesan;
+  background-color: green;
+}
+
+.warning {
+  @extend %pesan;
+  background-color: yellow;
+}
+
+.danger {
+  @extend %pesan;
+  background-color: red;
+}

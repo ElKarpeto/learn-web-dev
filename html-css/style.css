@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+/* 
+css selector hierarki:
+1. inline (menambahkan style pada tag html yang kita inginkan)
+2. # untuk id
+3. . untuk class
+4. namanya untuk type
+*/
